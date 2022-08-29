@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;  
 using System.Threading.Tasks; 
 
+//type - 1
 class SimapleHalfPyramid
 {  
     static void Main(string[] args)  
@@ -23,3 +24,39 @@ class SimapleHalfPyramid
         Console.ReadLine();  
     }  
 }  
+//output:
+//      *
+//     **
+//    ***
+//   ****
+//  *****
+// ******
+
+//type - 2
+
+class SimapleHalfPyramid
+{
+    //Program to print a Half pyramid
+    static void Main(string[] args)
+    {
+        int a, b, rows;
+        Console.Write("Enter number of rows:\t");
+        rows = Convert.ToInt16(Console.ReadLine());
+        for (a = 1; a <= rows; a++)
+        {
+            for (b = 1; b <= a; b++)
+            {
+                Console.Write("* ");
+            }
+            Console.WriteLine();
+        }
+        Console.Read();
+    }
+}
+
+// //output
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * * *
