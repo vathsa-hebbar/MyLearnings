@@ -1,81 +1,81 @@
-// C# Program to illustrate the
-// above given pattern of numbers
-using System;
+// // C# Program to illustrate the
+// // above given pattern of numbers
+// using System;
 
-class GFG {
+// class GFG {
 
-	public static void Main()
-	{
+// 	public static void Main()
+// 	{
 
-		int n = 5, i, j, num = 1, gap;
+// 		int n = 5, i, j, num = 1, gap;
 
-		gap = n - 1;
+// 		gap = n - 1;
 
-		for (j = 1; j <= n; j++) {
-			num = j;
+// 		for (j = 1; j <= n; j++) {
+// 			num = j;
 
-			for (i = 1; i <= gap; i++)
-				Console.Write(" ");
+// 			for (i = 1; i <= gap; i++)
+// 				Console.Write(" ");
 
-			gap--;
+// 			gap--;
 
-			for (i = 1; i <= j; i++) {
-				Console.Write(num);
-				num++;
-			}
-			num--;
-			num--;
-			for (i = 1; i < j; i++) {
-				Console.Write(num);
-				num--;
-			}
-			Console.WriteLine();
-		}
-	}
-}
+// 			for (i = 1; i <= j; i++) {
+// 				Console.Write(num);
+// 				num++;
+// 			}
+// 			num--;
+// 			num--;
+// 			for (i = 1; i < j; i++) {
+// 				Console.Write(num);
+// 				num--;
+// 			}
+// 			Console.WriteLine();
+// 		}
+// 	}
+// }
 
-//output
-//    1
-//   232
-//  34543
-// 4567654
-//567898765
-
-
+// //output
+// //    1
+// //   232
+// //  34543
+// // 4567654
+// //567898765
 
 
-//set-2
-// C# Program to illustrate the
-// above given pattern of numbers
-using System;
 
-class GFG {
 
-	public static void Main()
-	{
+// //set-2
+// // C# Program to illustrate the
+// // above given pattern of numbers
+// using System;
 
-		int n = 5, i, j, gap;
+// class GFG {
 
-		gap = n - 1;
+// 	public static void Main()
+// 	{
 
-		for (j = 1; j <= n; j++) {
+// 		int n = 5, i, j, gap;
 
-			for (i = 1; i <= gap; i++)
-				Console.Write(" ");
+// 		gap = n - 1;
 
-			gap--;
+// 		for (j = 1; j <= n; j++) {
 
-			for (i = 1; i <= j; i++) {
-				Console.Write(" "+i);
-			}
-			Console.WriteLine();
-		}
-	}
-}
+// 			for (i = 1; i <= gap; i++)
+// 				Console.Write(" ");
 
-//output
-//     1
-//    1 2
-//   1 2 3
-//  1 2 3 4
-// 1 2 3 4 5
+// 			gap--;
+
+// 			for (i = 1; i <= j; i++) {
+// 				Console.Write(" "+i);
+// 			}
+// 			Console.WriteLine();
+// 		}
+// 	}
+// }
+
+// //output
+// //     1
+// //    1 2
+// //   1 2 3
+// //  1 2 3 4
+// // 1 2 3 4 5
